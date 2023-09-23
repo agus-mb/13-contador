@@ -1,0 +1,47 @@
+*{
+    margin:0px;
+    padding:0px;
+    background-color: rgb(223, 223, 223);
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contador{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding:40px;
+    background-color: white;
+    width:200px ;
+    height: 30%;
+}
+
+h2{
+    font-size: 50px;
+}
+
+.pantalla-contador{
+    width: 80%;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.botones{
+    display: flex;
+    flex-direction:column;
+    gap: 15px;
+}
+
+button{
+    font-size: 30px;
+}
